@@ -29,3 +29,16 @@ def filter_users(is_active):
 # Testando a função.
 print(filter_users(True))
 print(filter_users(False))
+
+
+# Terminal c:\> Python users.py
+#Saída esperada:
+
+# [{'name': 'Andre', 'email': 'andre@example.com', 'password': '123', 'active': True}, 
+#  {'name': 'Darlei', 'email': 'darlei@example.com', 'password': '123', 'active': True},
+#  {'name': 'Maria', 'email': 'maria@example.com', 'password': '123', 'active': True},
+#  {'name': 'João', 'email': 'joao@example.com', 'password': '123', 'active': True}]
+
+# [{'name': 'Lari', 'email': 'lari@example.com', 'password': '123', 'active': False},
+#  {'name': 'Isabel', 'email': 'isabel@example.com', 'password': '123', 'active': False},
+#  {'name': 'Pedro', 'email': 'pedro@example.com', 'password': '123', 'active': False}]
