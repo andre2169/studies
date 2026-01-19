@@ -14,7 +14,7 @@ def get_paid_orders(is_paid):
 # Itera sobre a lista de pedidos e filtra os pagos
     for order in orders:
         # Verifica se o pedido está pago
-        if order["paid"] is is_paid:
+        if order["paid"] == is_paid:
             # Adiciona o pedido pago à lista
             paid_orders.append(order)
             # Imprime mensagem dependendo se é pago ou não

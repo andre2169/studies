@@ -20,7 +20,7 @@ def filter_users(is_active):
 # Percorro a lista de usuários.
     for user in users:
         # Verifico se o usuário é do tipo que quero.
-        if user["active"] is is_active:
+        if user["active"] == is_active:
             # Adiciono o usuário no final da lista de resultado.
             filtered_users.append(user)
             # Imprimo uma mensagem dependendo do tipo de usuário.
