@@ -1,4 +1,6 @@
 # Programa simples de calculadora
+# O usuário informa dois números e a operação desejada (+, -, *, /).
+
 numero1 = int(input("Digite o primeiro número: "))
 numero2 = int(input("Digite o segundo número: "))
 operacao = input("Digite a operação desejada (+, -, *, /): ")

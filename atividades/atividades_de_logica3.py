@@ -1,4 +1,8 @@
 # Programa que verifica se um empréstimo para compra de uma casa será aprovado ou negado
+# O usuário informa o valor da casa, o salário do comprador e em quantos anos deseja pagar.
+# A prestação mensal não pode ultrapassar 30% do salário do comprador.
+# Função para ler valores monetários com vírgula ou ponto
+#   Exemplo: "2500,75" ou "2500.75"
 
 def ler_dinheiro(msg):
     valor = input(msg)
